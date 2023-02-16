@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(42, 52, 165, 0.396);
+    font-family: 'Crimson Pro', serif;
+}
+
+.hero {
+    height: 50vh;
+    /*background-image: url(./images/hero2.jpg);*/
+    background-color: rgb(8, 8, 132);
+    background-size: cover;
+    position: relative;
+    
+}
+.card {
+    margin: 20px 0;
+}
+#hero-text-main {
+    font-weight: bold;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: whitesmoke;
+    /*line-height: 2em;*/
+}
+#hero-text-secondary {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    color: whitesmoke;
+    /*line-height: 1em;*/
+}
+#cta-button {
+    color: blue;
+    background-color: blanchedalmond !important;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+@media only screen and (max-width: 600px) {
+     
+      .hero {
+          height: 75vh;
+      }
+    
+  }
